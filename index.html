@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="img/68d99ba29cc8.png" type="image/x-icon">
+    <script src="js/index.js"></script>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: whitesmoke;
+        height: auto;
+    }
+    .box{
+        display: block;
+        width: 270px;
+        margin:auto;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        padding: 55px 15px ;
+        box-shadow: 5px 5px 10px grey;
+    }
+    .top{
+        font-family: cursive;
+        font-size: 55px;
+        text-align: center  ;
+        text-shadow: 2px 2px 3px grey;
+    }
+    .mbox{
+        display: block;
+        margin: auto;
+    }
+
+    #usr{
+        margin: 15px auto;
+        width: 263px;
+        background: rgb(230, 230, 230);
+        height: 30px;
+        border-radius: 4px;
+        border:1px solid rgb(207, 207, 207);
+        padding: 0px 0px 0px 5px;
+        box-shadow: 1px 1px 3px grey;
+
+    }
+    #pwd{
+        width: 263px;
+        background: rgb(230, 230, 230);
+        height: 30px;
+        border-radius: 4px;
+        border:1px solid rgb(207, 207, 207);
+        padding: 0px 0px 0px 5px;
+        margin:0px auto 15px auto;
+        box-shadow: 1px 1px 3px grey;
+    }
+    #btn{
+        color:white;
+        background-color:#0f6afd;
+        border: 2px solid #0f6afd;
+        border-radius: 3px;
+        width: 270px;
+        margin-top: 15px;
+        height: 27px;
+        box-shadow: 2px 2px 3px grey;
+    }
+    .fpwd{
+        margin-top: 10px;
+        text-align: right;
+        text-shadow: 2px 2px 3px grey;
+    }
+    .footer{
+        color: grey;
+        width: 290px;
+        display: block;
+        margin: auto ;
+        position: relative;
+        bottom: -270px ;
+        text-shadow: 2px 2px 3px grey;
+        /* left: 50%; */
+    }
+    #x{
+        text-decoration: none;
+    }
+    /* Hover */
+    .footer:hover{
+        cursor: default;
+    }
+    /* Focus */
+
+    /* Media Screen */
+    @media screen and (max-width:600px) {
+            body{
+                height: 100%;
+            }
+            .box{
+                width: 80%;
+                display: block;
+                margin: auto;
+                position:absolute;
+                top: 10%;
+                left: 5%;
+            }
+            .footer{
+                bottom: -245px;
+            }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            Instagram
+        </div>
+        <div class="mbox">
+            <form action="" method="post">
+                <input type="text" name="usr" id="usr" placeholder="Phone number, email or Username">
+                <input type="password" name="pwd" id="pwd" placeholder="Password">
+                <button type="submit" id="btn">Login</button>
+            </form>
+        </div>
+        <div class="fpwd">
+            <a href="forms/404.html">Forgot Password?</a>
+        </div>
+        <div class="footer">
+            © 2021 Instagram from <a href="https://www.facebook.com"id="x">Facebook</a>
+        </div>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
+
